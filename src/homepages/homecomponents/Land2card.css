@@ -1,0 +1,128 @@
+.land2main{
+    width: 100%;
+    margin: 10vh auto;
+}
+.land2card{
+    width: 90%;
+    background-color: #0071BD;
+    border-bottom: 40px;
+    margin: 0 auto;
+    padding: 1% 0 3% 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    border-radius: 40px;
+}
+.l2left{
+    width: 60%;
+    height: 100%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+.l21head{
+    font-size: 32px;
+    
+}
+.l21head span{
+    color: #FE764B;
+    margin-right: 3px;
+}
+.l2leftline{
+    height: 1px;
+    width: 100%;
+    background-color: white;
+}
+.l22head{
+    font-family: Outfit;
+font-size: 48px;
+font-weight: 700;
+line-height: 60.48px;
+text-align: left;
+width: 90%;
+
+}
+.l2left p{
+    font-family: Outfit;
+font-size: 22px;
+font-weight: 300;
+line-height: 27.72px;
+text-align: left;
+width: 90%;
+
+}
+.l2left p span{
+    font-weight: 600;
+
+}
+.l2leftimg{
+    margin-top: 30px;
+    margin-left: 5%;
+}
+.l2right{
+    width: 40%;
+    height: 100%;
+}
+.l2orn{
+    text-align: right;
+}
+.l2rightimg{
+    background-color: #0071BD;
+}
+.l2rightimg img{
+    width: 90%;
+    background-color: transparent;
+
+    margin-left: -5%;
+    margin-top: 5%;
+}
+.land3main{
+    width: 100%;
+    margin: 5vh auto;
+    background:url('./../../assets/land/land3back.png') ;
+    background-position: right;
+    background-size: contain;
+    
+    background-repeat: no-repeat;
+    
+    
+    
+}
+.land3con{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.l3left{
+    width: 25%;
+    padding: 3%;
+}
+.l3right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+.l3right h1{
+    color: #000000;
+    font-family: Outfit;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 50.4px;
+    text-align: center;
+    
+
+}
+.l3right p{
+    font-family: Playfair Display;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50.4px;
+    text-align: left;
+
+}

@@ -1,0 +1,248 @@
+.landtabmain{
+    width: 100%;
+    margin: 10vh auto;
+}
+.lttitle{
+    display: flex;
+    justify-content: space-between;
+    
+    flex-direction: row;
+    width: 100%;
+}
+.lttleft{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 70%;
+    padding-left: 5%;
+}
+.lttleft h1{
+    font-family: Outfit;
+font-size: 96px;
+font-weight: 700;
+line-height: 120.96px;
+text-align: left;
+
+}
+.lttleft h5{
+    font-family: Outfit;
+font-size: 40px;
+font-weight: 600;
+line-height: 50.4px;
+text-align: left;
+
+}
+.lttright{
+    flex: 1;
+    text-align: right;
+}
+.landtabcon{
+    width: 100%;
+    padding: 2%;
+
+}
+.landtabnavcon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1px 2%;
+    width: 100%;
+    list-style-type: none;
+
+
+}
+.landtabnavcon li {
+    position: relative;
+    padding: 1% 2%;
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30.24px;
+    text-align: left;
+    border: 3px solid white;
+    border-radius: 5px;
+    overflow: hidden; /* Ensure the hover effect doesn't spill outside the element */
+  }
+  
+  .landtabnavcon .nonactive span {
+    display: inline-block;
+    background: linear-gradient(45deg, #fff 50%, #7B11F9 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: black;
+    background-size: 300%;
+    
+    background-position: 100% 100%; /* Start from bottom right */
+    transition: background-position 1s ease, font-size 0.2s ease;
+  }
+  
+  .landtabnavcon .nonactive {
+    border: 3px solid #7B11F9;
+    position: relative;
+  }
+  
+  .landtabnavcon .nonactive::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(45deg, #7D00FF 50%, transparent 50%);
+    background-size: 300%;
+    background-position: 100% 100%; /* Start from bottom right */
+    z-index: -1;
+    transition: background-position 1s ease;
+
+    
+  }
+  .landtabnavcon .nonactive::before{
+    content: '';
+    position: absolute;
+    
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 20px solid #7D00FF; /* Purple corner */
+    border-right: 20px solid transparent;
+    border-radius: 0 0 1px 0;
+  }
+  
+  .landtabnavcon .nonactive:hover span {
+    background-position: 0% 0%; /* Move to top left */
+    -webkit-text-fill-color: white;
+
+    color: #7D00FF;
+    animation: slideup 0.8s ease;
+  }
+  
+  .landtabnavcon .nonactive:hover::after {
+    background-position: 0% 0%; /* Move to top left */
+  }
+  
+
+
+
+  @keyframes slideup {
+    0% {
+      transform: translateY(150%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+
+
+
+
+  .nonactive {
+   
+    /* Purple border */
+     /* Rounded corners */
+    position: relative;
+    font-size: 18px;
+
+    color: black;
+  }
+  
+
+  
+.landtabnavcon li.active {
+    color: white;
+    background: linear-gradient(120deg, #7B11F9 1.4%, #E11D48 85.42%);
+
+}
+.landtabnavcon li.active span{
+    color: white;
+}
+
+.landtabcontent{
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.landtableft{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 6%;
+}
+.landtableft h1{
+    font-family: Outfit;
+font-size: 50px;
+font-weight: 600;
+line-height: 60px;
+text-align: left;
+
+
+}
+.landtableft p{
+    font-family: Outfit;
+font-size: 23px;
+font-weight: 400;
+line-height: 34.02px;
+text-align: left;
+
+}
+.landtabright{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.landtabright .ltrightimg{
+    width: 24%;
+   
+}
+.landtabright .ltrightimg img{
+   
+    object-fit: contain;
+    width: 320px;
+}
+/* ... existing styles ... */
+
+/* ... existing styles ... */
+
+.ltrightimg {
+    width: 24%;
+    transition: all fade;
+     /* Initially hidden for animation */
+}
+
+.bounceIn {
+    animation: bounceIn 0.8s forwards;
+    animation-delay: 0s; /* Delay to create the bounce effect */
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  60% {
+    transform: translateX(-90px);
+    opacity: 1;
+  }
+  80% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+  
+
+  

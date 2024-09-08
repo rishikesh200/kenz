@@ -1,0 +1,14 @@
+.logoslidermain{
+    width: 100%;
+    margin: 8vh auto;
+    padding: 5vh 0;
+
+}
+.logoslider{
+    background: transparent;
+}
+.logoslider img {
+    height: 250px;
+    margin-right: 100px;
+
+}

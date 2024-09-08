@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.landparent{
+    width: 100%;
+    
+}
+.land1main{
+    width: 100%;
+    background:url('./../assets/land/Group 1000010671@2x.png') 100% 100% ;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 5%;
+
+}
+.land1main >h1{
+    font-family: Outfit;
+font-size: 80px;
+font-weight: 700;
+line-height: 100.8px;
+text-align: left;
+width: 80%;
+
+}
+.land1main >p{
+    font-family: Outfit;
+font-size: 24px;
+font-weight: 300;
+line-height: 30.24px;
+text-align: left;
+width: 70%;
+
+}
+.land1btn{
+
+}
+.land1btn >button{
+    font-family: Outfit;
+font-size: 32px;
+font-weight: 500;
+line-height: 40.32px;
+padding: 5px 20px;
+text-align: left;
+color: white;
+border: none;
+border-radius: 5px;
+background: linear-gradient(92.22deg, #1CE4F2 3.31%, #14B8A6 99.27%);
+
+}
+
