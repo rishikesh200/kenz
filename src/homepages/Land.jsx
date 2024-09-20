@@ -5,7 +5,12 @@ import Logoslider from './homecomponents/Logoslider';
 import Land2card from './homecomponents/Land2card';
 import Landtab from './homecomponents/Landtab';
 import Landgrad from './homecomponents/Landgrad';
-import Landtest from './homecomponents/landtest';
+import Landtest from './homecomponents/Landtest';
+
+import Ourprices from './Ourprices';
+import Speak from './Speak';
+import Footer from './Footer';
+
 const Land = () => {
   return (
     <div className='landparent'>
@@ -30,13 +35,17 @@ const Land = () => {
             </div>
             <div className="l3right">
               <h1>"What you consider “impossible” is already done by somebody else."</h1>
-              <p> -Dr. A.P.J.Abdul Kalam India -Ex President</p>
+              <p>-Dr. A.P.J.Abdul Kalam India -Ex President</p>
             </div>
           </div>
         </div>
         <Landtab/>
         <Landgrad/>
         <Landtest/>
+
+        <Ourprices/>
+        <Speak/>
+        <Footer/>
 
     </div>
   )

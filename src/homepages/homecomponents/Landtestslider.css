@@ -1,0 +1,71 @@
+.landtestcon{
+    background-color: #0071BD;
+    width: 80%;
+    height: 55vh;
+  
+    border-radius: 5px;
+    
+}
+.landtestcard{
+    display: flex;
+    flex-direction: column;
+    
+    padding: 4%;
+    height: 55vh;
+    width: 100%;
+    
+}
+.testcusdet{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.testcusdet img{
+    width: 70px;
+}
+.testcustext{
+    color: white;
+    
+}
+.testcustext h1{
+    font-family: Outfit;
+font-size: 32px;
+font-weight: 600;
+line-height: 40.32px;
+text-align: left;
+
+}
+.testcustext p{
+    font-family: Outfit;
+font-size: 20px;
+font-weight: 300;
+line-height: 25.2px;
+text-align: left;
+
+}
+.testdes{
+    color: white;
+    font-family: Outfit;
+font-size: 24px;
+font-weight: 300;
+line-height: 30.24px;
+text-align: left;
+width: 80%;
+margin-bottom: 20px;
+}
+.teststar{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+}
+.teststar p{
+    font-family: Outfit;
+font-size: 24px;
+font-weight: 300;
+line-height: 30.24px;
+text-align: left;
+color: white;
+}

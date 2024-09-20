@@ -1,0 +1,92 @@
+.opmain{
+    width: 100%;
+    padding-left: 3%;
+    margin: 3vh auto;
+}
+.optitlemain{
+    width: 70%;
+    border-bottom: 3px solid black;
+    padding-bottom: 14px;
+
+}
+.optitlemain h1{
+    font-family: Outfit;
+font-size: 48px;
+font-weight: 600;
+line-height: 60.48px;
+text-align: left;
+
+    
+}
+.optitlemain h1 span{
+    color: #FE764B;
+}
+.opsplit{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 3vh auto;
+
+}
+.opleft{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 5vh;
+}
+.opleft h1{
+    font-family: Outfit;
+font-size: 48px;
+font-weight: 700;
+line-height: 60.48px;
+text-align: left;
+
+}
+.opleft p{
+    font-family: Outfit;
+font-size: 24px;
+font-weight: 300;
+line-height: 30.24px;
+text-align: left;
+width: 60%;
+}
+.opleftbtn{
+    background-color: #473BF0;
+    font-family: Outfit;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.6000000238418579px;
+    text-align: left;
+    color: white;
+    width: 240px;
+    border-radius: 4px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-betwee;
+
+}
+
+.opright{
+    width: 40%;
+    position: relative;
+}
+.oprback{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.opb1{
+    width: 40%; 
+}
+.oprmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -2,15 +2,16 @@
     width: 100%;
     margin: 5vh auto;
     background:url('./../../assets/land/landtest/testback.png') ;
-    background-size:  100% 80%;
+    background-size:  100% 90%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     
 }
 .landtesttitle{
     text-align: center;
-    padding: 2%;
+    padding: 1%;
     margin: 5vh auto;
+    
 }
 .landtesttitle h1{
     font-family: Outfit;
@@ -27,11 +28,15 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+   
 }
 .ltestleft{
     width: 50%;
-    padding: 2%;
+    padding: 0 2%;
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 .ltslbtn {
     text-align: center;
@@ -44,8 +49,16 @@ padding: 10px 30px;
 line-height: 25.2px;
 text-align: left;
 color: white;
+border: none;
 background-color: #0071BD;
 
+}
+.ltslimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 2VH auto;
+    gap: 20px;
 }
 .ltsltext{
     font-family: Outfit;
@@ -59,4 +72,8 @@ background-color: #0071BD;
 .ltestright{
     width: 50%;
     padding: 2%;
+
+
+
 }
+
