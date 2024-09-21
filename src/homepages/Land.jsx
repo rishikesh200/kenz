@@ -7,8 +7,8 @@ import Landtab from './homecomponents/Landtab';
 import Landgrad from './homecomponents/Landgrad';
 import Landtest from './homecomponents/Landtest';
 
-import Ourprices from './Ourprices';
-import Speak from './Speak';
+import Ourprices from './homecomponents/Ourprices';
+import Speak from './homecomponents/Speak';
 import Footer from './Footer';
 
 const Land = () => {
@@ -45,7 +45,7 @@ const Land = () => {
 
         <Ourprices/>
         <Speak/>
-        <Footer/>
+        
 
     </div>
   )

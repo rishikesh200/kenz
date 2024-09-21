@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css';
+import { NavLink } from 'react-router-dom';
 import leftorn from './../assets/footer/leftorn.png';
 import rightorn from './../assets/footer/rightorn.png';
 import logo from './../assets/logo.png';
@@ -15,7 +16,7 @@ const Footer = () => {
         <div className="footmain">
             <div className="footmainfront">
                 <div className="ftleft">
-                    <img src={logo} alt="" />
+                <NavLink to="/"><img src={logo} alt="Logo" /></NavLink>
                     <h1>Water is life, and clean water
                     means health</h1>
                     <p>Kennz Technologies LLP Headquarters in a Chennai
@@ -25,6 +26,14 @@ const Footer = () => {
                 </div>
                 <div className="ftcenter">
                     <p className='fthead'>Services</p>
+                    <ul className='footul navul'>
+                        
+                        <li><NavLink to="About" className={({ isActive }) => (isActive ? 'active-link' : '')}>About Us</NavLink></li>
+                        <li><NavLink to="Water Treatment" className={({ isActive }) => (isActive ? 'active-link' : '')}>Water Treatment</NavLink></li>
+                        <li><NavLink to="Alkaline Water Purifier" className={({ isActive }) => (isActive ? 'active-link' : '')}>Alkaline Water Purifier</NavLink></li>
+                        <li><NavLink to="Construction-works" className={({ isActive }) => (isActive ? 'active-link' : '')}>Construction works</NavLink></li>
+                        
+                    </ul>
                 </div>
                 <div className="ftright">
                     <p className='fthead'>Contact</p>
@@ -63,6 +72,6 @@ const Footer = () => {
         </div>
     </div>
   )
-}
+}           
 
 export default Footer
